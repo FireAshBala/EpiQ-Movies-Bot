@@ -30,7 +30,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
         if user.status == "kicked":
             await bot.send_message(
                 chat_id=cmd.from_user.id,
-                text="Sorry Sir, You are Banned to use me. Contact my [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/EpiQGroup).",
+                text="Sorry Sir, You are Banned to use me. Contact my [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/+jzT1Tp8lB8w4ZDFl).",
                 disable_web_page_preview=True
             )
             return 400
@@ -59,7 +59,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
     except Exception:
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="Thank you [𝖧𝖺𝗏𝖾 𝖽𝗈𝗎𝖻𝗍𝗌? 𝖥𝖾𝖾𝗅 𝖿𝗋𝖾𝖾 𝗍𝗈 𝖼𝗈𝗇𝗍𝖺𝖼𝗍 𝗈𝗎𝗋 𝖺𝖽𝗆𝗂𝗇 𝗍𝖾𝖺𝗆 𝖶𝖾'𝗋𝖾 𝗁𝖾𝗋𝖾 𝗍𝗈 𝗁𝖾𝗅𝗉!](https://t.me/EpiQGroup).",
+            text="Thank you [𝖧𝖺𝗏𝖾 𝖽𝗈𝗎𝖻𝗍𝗌? 𝖥𝖾𝖾𝗅 𝖿𝗋𝖾𝖾 𝗍𝗈 𝖼𝗈𝗇𝗍𝖺𝖼𝗍 𝗈𝗎𝗋 𝖺𝖽𝗆𝗂𝗇 𝗍𝖾𝖺𝗆 𝖶𝖾'𝗋𝖾 𝗁𝖾𝗋𝖾 𝗍𝗈 𝗁𝖾𝗅𝗉!](https://t.me/+jzT1Tp8lB8w4ZDFl).",
             disable_web_page_preview=True
         )
         return 200
